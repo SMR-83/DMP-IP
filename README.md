@@ -1,2 +1,2 @@
-# Multidisciplinary-Sepsis-Group
- a website for the group www.multidisciplinarysepsisgroup.com
+# Data Management Plan Repository
+ a website for my DMP project resources
