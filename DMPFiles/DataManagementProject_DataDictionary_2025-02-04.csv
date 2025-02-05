@@ -1,0 +1,137 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+study_id,minimal_patient_data,,text,"Study ID",,,,,,,,,,,,,
+signature,minimal_patient_data,,file,"Consent Information",,YYYY-MM-DD,signature,,,y,,y,,,,,
+date_enrolled,minimal_patient_data,,text,"Date subject signed consent",,YYYY-MM-DD,date_ymd,,,,,y,,,,,
+email,minimal_patient_data,,text,"Contact Information",,,email,,,y,,y,,,,,
+first_name,minimal_patient_data,,text,"First Name",,,,,,y,,y,,,,,
+last_name,minimal_patient_data,,text,"Last Name",,,,,,y,,y,,,,,
+dob,minimal_patient_data,,text,"Date of birth",,,date_ymd,,,y,,y,,,,,
+sex,minimal_patient_data,,dropdown,Sex,"0, Female | 1, Male | 2, Nonbinary | 3, Other | 4, Prefer Not to Say",,,,,y,,y,,,,,
+par_code,minimal_patient_data,,text,"Participant Code",,,integer,1,78,,,y,,,,," @MC-PARTICIPANT-CODE @HIDDEN"
+survey_question_1,secondary_pretestposttest_surveys,SF-36,radio,"survey question 1","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_2,secondary_pretestposttest_surveys,,radio,"survey question 2","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_3,secondary_pretestposttest_surveys,,radio,"survey question 3","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_4,secondary_pretestposttest_surveys,,radio,"survey question 4","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_5,secondary_pretestposttest_surveys,,radio,"survey question 5","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_6,secondary_pretestposttest_surveys,,radio,"survey question 6","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_7,secondary_pretestposttest_surveys,,radio,"survey question 7","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_8,secondary_pretestposttest_surveys,,radio,"survey question 8","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_9,secondary_pretestposttest_surveys,,radio,"survey question 9","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_10,secondary_pretestposttest_surveys,,radio,"survey question 10","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_11,secondary_pretestposttest_surveys,,radio,"survey question 11","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_12,secondary_pretestposttest_surveys,,radio,"survey question 12","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_13,secondary_pretestposttest_surveys,,radio,"survey question 13","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_14,secondary_pretestposttest_surveys,,radio,"survey question 14","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_15,secondary_pretestposttest_surveys,,radio,"survey question 15","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_16,secondary_pretestposttest_surveys,,radio,"survey question 16","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_17,secondary_pretestposttest_surveys,,radio,"survey question 17","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_18,secondary_pretestposttest_surveys,,radio,"survey question 18","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_19,secondary_pretestposttest_surveys,,radio,"survey question 19","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_20,secondary_pretestposttest_surveys,,radio,"survey question 20","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_21,secondary_pretestposttest_surveys,,radio,"survey question 21","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_22,secondary_pretestposttest_surveys,,radio,"survey question 22","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_23,secondary_pretestposttest_surveys,,radio,"survey question 23","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_24,secondary_pretestposttest_surveys,,radio,"survey question 24","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_25,secondary_pretestposttest_surveys,,radio,"survey question 25","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_26,secondary_pretestposttest_surveys,,radio,"survey question 26","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_27,secondary_pretestposttest_surveys,,radio,"survey question 27","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_28,secondary_pretestposttest_surveys,,radio,"survey question 28","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_29,secondary_pretestposttest_surveys,,radio,"survey question 29","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_30,secondary_pretestposttest_surveys,,radio,"survey question 30","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_31,secondary_pretestposttest_surveys,,radio,"survey question 31","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_32,secondary_pretestposttest_surveys,,radio,"survey question 32","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_33,secondary_pretestposttest_surveys,,radio,"survey question 33","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_34,secondary_pretestposttest_surveys,,radio,"survey question 34","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_35,secondary_pretestposttest_surveys,,radio,"survey question 35","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+survey_question_36,secondary_pretestposttest_surveys,,radio,"survey question 36","1, Choice 1 | 2, Choice 2 | 3, Choice 3",,,,,,,,,,sf_36,,
+functional_bowel_disorder,secondary_pretestposttest_surveys,,slider,"Functional Bowel Disorder Severity Index (FBDSI)
+Pain Severity: ""On a scale from 0 to 100, how severe is your chronic abdominal pain?",,,number,,,,,y,RH,,,,
+functional_bowel_disorder_2,secondary_pretestposttest_surveys,,text,"Functional Bowel Disorder Severity Index (FBDSI)
+How many times have you visited a physician for bowel-related symptoms?",,,,,,,,y,RH,,,,
+functional_bowel_disorder_3,secondary_pretestposttest_surveys,,yesno,"Functional Bowel Disorder Severity Index (FBDSI)
+Have you had any surgeries for abdominal pain that did not lead to a clear diagnosis?",,,,,,,,y,RH,,,,
+uuid,secondary_pretestposttest_surveys,,text,UUID,,,,,,,,,,,,," @MC-TASK-UUID @HIDDEN-SURVEY"
+startdate,secondary_pretestposttest_surveys,,text,"Start Date",,,,,,,,,,,,," @MC-TASK-STARTDATE @HIDDEN-SURVEY"
+enddate,secondary_pretestposttest_surveys,,text,"End Date",,,,,,,,,,,,," @MC-TASK-ENDDATE @HIDDEN-SURVEY"
+scheduledate,secondary_pretestposttest_surveys,,text,"Schedule Date",,,,,,,,,,,,," @MC-TASK-SCHEDULEDATE @HIDDEN-SURVEY"
+status,secondary_pretestposttest_surveys,,dropdown,Status,"0, Deleted | 1, Completed | 2, Incomplete",,,,,,,,,,,," @MC-TASK-STATUS @HIDDEN-SURVEY"
+supplementaldata,secondary_pretestposttest_surveys,,notes,"Supplemental Data (JSON)",,,,,,,,,,,,," @MC-TASK-SUPPLEMENTALDATA @HIDDEN-SURVEY"
+serializedresult,secondary_pretestposttest_surveys,,file,"Serialized Result",,,,,,,,,,,,," @MC-TASK-SERIALIZEDRESULT @HIDDEN-SURVEY"
+abdominal_pain2,secondary_weekly_data,,dropdown,"Abdominal Pain
+0 is none, 1 mild, 2 moderate, 3 severe, and 4 is incapacitating","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,,,
+briston_stool_scale2,secondary_weekly_data,,dropdown,"Stool consistency 
+On a scale of 1-7 according to the Bristol stool form scale 
+1 is separate hard lumps 
+2 is sausage shaped but lumpy
+3 is like asausage or a snake but with cracks
+4 is like a sausage or asnake, smooth and soft
+5 is soft blobs with clear-cut edges
+6 is fluffy pieces with ragged edges, a mushy stool 
+7 is watery, no solid pieces","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",,,,,,,y,,,,,
+strain2,secondary_weekly_data,,dropdown,"Straining
+0 = No
+1 = Yes
+","0, 0 | 1, 1",,,,,,,y,,,,,
+urgency2,secondary_weekly_data,,dropdown,"Urgency
+0 = No
+1 = Yes","0, 0 | 1, 1",,,,,,,y,,,,,
+incomplete2,secondary_weekly_data,,dropdown,"Feeling of incomplete defecation
+0 = No
+1 = Yes","0, 0 | 1, 1",,,,,,,y,,,,,
+bloat2,secondary_weekly_data,,dropdown,"Bloating
+0 = No
+1 = Yes","0, 0 | 1, 1",,,,,,,y,,,,,
+mucus2,secondary_weekly_data,,dropdown,"Passage of Mucus
+0 = No
+1 = Yes","0, 0 | 1, 1",,,,,,,y,,,,,
+vomit2,secondary_weekly_data,,dropdown,"Vomiting
+0 = None
+1 = Mild
+2 = Moderate
+3 = Severe
+4 = Incapacitating ","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,,,
+heartburn2,secondary_weekly_data,,dropdown,"Heartburn
+0 = None
+1 = Mild
+2 = Moderate
+3 = Severe
+4 = Incapacitating ","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,,,
+satiety2,secondary_weekly_data,,dropdown,"Early Satiety
+0 = None
+1 = Mild
+2 = Moderate
+3 = Severe
+4 = Incapacitating ","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,,,
+fullness2,secondary_weekly_data,,dropdown,"Postprandial Fullness
+0 = None
+1 = Mild
+2 = Moderate
+3 = Severe
+4 = Incapacitating ","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,,,
+prolonged_digestion2,secondary_weekly_data,,dropdown,"Sensation of prolonged digestion
+0 = None
+1 = Mild
+2 = Moderate
+3 = Severe
+4 = Incapacitating ","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,,,
+nausea2,secondary_weekly_data,,dropdown,"Nausea
+0 = None
+1 = Mild
+2 = Moderate
+3 = Severe
+4 = Incapacitating ","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,,,
+startdate_2,secondary_weekly_data,,text,"Start Date",,,date_ymd,,,,,y,,,,," @MC-TASK-STARTDATE @HIDDEN-SURVEY"
+enddate_2,secondary_weekly_data,,text,"End Date",,,date_ymd,,,,,y,,,,," @MC-TASK-ENDDATE @HIDDEN-SURVEY"
+scheduledate_2,secondary_weekly_data,,text,"Schedule Date",,,date_ymd,,,,,,,,,," @MC-TASK-SCHEDULEDATE @HIDDEN-SURVEY"
+status_2,secondary_weekly_data,,dropdown,Status,"0, Deleted | 1, Completed | 2, Incomplete",,,,,,,,,,,," @MC-TASK-STATUS @HIDDEN-SURVEY"
+supplementaldata_2,secondary_weekly_data,,notes,"Supplemental Data (JSON)",,,,,,,,,,,,," @MC-TASK-SUPPLEMENTALDATA @HIDDEN-SURVEY"
+serializedresult_2,secondary_weekly_data,,file,"Serialized Result",,,,,,,,,,,,," @MC-TASK-SERIALIZEDRESULT @HIDDEN-SURVEY"
+uuid_2,secondary_weekly_data,,text,UUID,,,,,,,,,,,,," @MC-TASK-UUID @HIDDEN-SURVEY"
+daily_number_of_stools2_v2_v2,primary_daily_data,,dropdown,"Daily Number of Stools","0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11 | 12, 12 | 13, 13 | 14, 14 | 15, 15 | 16, 16 | 17, 17 | 18, 18 | 19, 19 | 20, 20 | 21, 21 | 22, 22 | 23, 23 | 24, 24 | 25, 25 | 26, 26 | 27, 27 | 28, 28 | 29, 29 | 30, 30 | 31, 31 | 32, 32 | 33, 33 | 34, 34 | 35, 35 | 36, 36 | 37, 37 | 38, 38 | 39, 39 | 40, 40 | 41, 41 | 42, 42 | 43, 43 | 44, 44 | 45, 45 | 46, 46 | 47, 47 | 48, 48 | 49, 49 | 50, 50",,,,,,,y,RH,,,,
+uuid_3,primary_daily_data,,text,UUID,,,,,,,,,,,,," @MC-TASK-UUID @HIDDEN-SURVEY"
+startdate_3,primary_daily_data,,text,"Start Date",,,,,,,,,,,,," @MC-TASK-STARTDATE @HIDDEN-SURVEY"
+enddate_3,primary_daily_data,,text,"End Date",,,,,,,,,,,,," @MC-TASK-ENDDATE @HIDDEN-SURVEY"
+scheduledate_3,primary_daily_data,,text,"Schedule Date",,,,,,,,,,,,," @MC-TASK-SCHEDULEDATE @HIDDEN-SURVEY"
+status_3,primary_daily_data,,dropdown,Status,"0, Deleted | 1, Completed | 2, Incomplete",,,,,,,,,,,," @MC-TASK-STATUS @HIDDEN-SURVEY"
+supplementaldata_3,primary_daily_data,,notes,"Supplemental Data (JSON)",,,,,,,,,,,,," @MC-TASK-SUPPLEMENTALDATA @HIDDEN-SURVEY"
+serializedresult_3,primary_daily_data,,file,"Serialized Result",,,,,,,,,,,,," @MC-TASK-SERIALIZEDRESULT @HIDDEN-SURVEY"
